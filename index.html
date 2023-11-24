@@ -37,10 +37,10 @@
           <h3>Sound Effect</h3>
           <div class="button-container">
             <button id="playButton2">Birds Flapping</button>
-            <button id="playButton3">Water Droplets</button>
-            <button id="playButton4">Water Drop</button>
-            <button id="playButton5">Water Drop</button>
-            <button id="playButton6">Boiling Water</button>
+            <button id="playButton3">Cracking Wood</button>
+            <!-- <button id="playButton4">Wind Blizzard</button> -->
+            <!-- <button id="playButton5">Water Drop</button> -->
+            <!-- <button id="playButton6">Boiling Water</button> -->
             <button id="playButton7">Owl</button>
             <button id="playButton8">Fire</button>
           </div>
@@ -74,10 +74,11 @@
 
   // examplify an audio from url
 
+
   // var audio1 = new Audio('https://cdn2.ear0.com:3321/preview?soundid=35266&type=mp3');
   var audio2 = new Audio('https://cms-artifacts.motionarray.com/content/motion-array/968712/Birds_Fly_Away_mp3.mp3?Expires=2003744820594&Key-Pair-Id=K2ZDLYDZI2R1DF&Signature=1imFMTGAkIYLLz08nawDFwPziAnMSthWNafLkiAVNKRSmtOFd46J-45~gG2f8N~uIs2a5iL0sYqkrGKcKHLlCKECNxXlqS5qU0Kvbb4aLNiQq3fxLoy1ytFzmPmacn8W9ICYmgEMr8jxQqbxFFIT5onId9uVFR1VYxoorRnqbYGcr35NDPS4a5hQ-kWNTheos5oeoK991uQ1fwPYZw3RDoPrCCPht7MgzHczF-XfnV142ZZUn~2cr8jDq4A90v6HmFrepuaDsZ8xZiX7TFcU7BmYHvFV0m70rNkOvWPZQkw7L~qGc-bgIJYKPBYidHM-eaKJd3jzrvCwPuPXW6Zihg__');
-  var audio3 = new Audio('https://cms-artifacts.motionarray.com/content/motion-array/1103700/Cave_Water_Droplets_mp3.mp3?Expires=2003744513987&Key-Pair-Id=K2ZDLYDZI2R1DF&Signature=1wVnW3RgYxMnETApVSM4lI4hfhZe-Hiqcuz-wjRhjJpOBgwgItGlC4SHEe7Pnx6hfT~ruNOxUVh~S6UTWeJI5ZaYvIKzJ3MiE~WsQkL38S7joUVHlQOBEmSB19PXKotzQlwHWauHEl~u9A0Vr3wlyvl2~qrelDteHu30aicAyB19OLa45UxQNpb1pOoe0WAKJwgvcGJqbqm4TVErxOlBjpYdPYI2vM5~8JZzhPZCsxFmj27rMIX2gM8VnwhOfnM2lPAR6u~paiViS-emHo31j7D8LmgySkAYId8a4p~r1u1AnhLvOC~~UWsvoFfel3UEItGqAxNYOAoacI5CXMx0fg__');
-  var audio4 = new Audio('https://cms-artifacts.motionarray.com/content/motion-array/1631378/Water_Drop_mp3.mp3?Expires=2003772936012&Key-Pair-Id=K2ZDLYDZI2R1DF&Signature=GDqfCcvBrgK7S8yglIcRV89iXSVulH-SIahTFJJ7cAaZrhmcI4UGFa2z4V3Tm6ZXxAuyXjVYpp9C5yNYjT-uAsTMjLp8WEcD9OoadOeOfDqEZ~ksuyEyqP6p3mVTBIKdv76Vhx0V2VM-nXM~~KmIWLtVcC6KcZVvopEaAMK18XOSYuwAKeKOKY6T6YHGb0UQyfdd8dL8Q8elSw2~g7iHBLhENsVKr2C8z4G9jgknu0ZnmaBFsAS1hjX0e51MUhXybYW4zyhlj4SKtEVp6zcnU8RpO3VNFZlia0kqDT6KAm9deCyjOVRM1HfyK89uupSjp1ltVipmj2W6qxfSMhiUBQ__');
+  var audio3 = new Audio('https://cms-artifacts.motionarray.com/content/motion-array/1889528/Cracking_Wood_mp3_1696234409.mp3?Expires=2011594443652&Key-Pair-Id=K2ZDLYDZI2R1DF&Signature=V5ccngz2iz3W87gI7i-BCaLTBKSUISP3ZKQeN9J5wEjeS5cjTypX7gHLgFa905kyvI1F2ppSMqxMdJSiHHt5s0gCqtigEVSnghgLbNe7BiSuCu3Qo4e1kxWS83ODg0pojM1PbKxGabVxnwpKgSBIEpOBfPvjK3vzyTz~UGeBxl931tuF4-fdgPgVJtFakOXV9hy5bqP1X~qKq~p6M3ndTR~rpfdUXzE5SByyClOxr-5idmSp0Q3EAerngbjUuSq0k370LRdccmVpqStfTFOSUoV-KpLLFBVrg1QYV6FcdT8X0WCzhiOVWFagS5AQmss0NI18seX6Om6jE62jflmdxw__');
+  var audio4 = new Audio('https://audiocdn.epidemicsound.com/ES_ITUNES/Wind%20Blizzard%201/ES_Wind%20Blizzard%201.mp3');
   var audio5 = new Audio('https://cms-artifacts.motionarray.com/content/motion-array/1023006/Water_Drop_mp3.mp3?Expires=2003733609423&Key-Pair-Id=K2ZDLYDZI2R1DF&Signature=ZxPDjqXG0q6wOfufYyqk6eLq7z1cNdMcgQDlIlQt1Ftz~6FgYRd3ZGEDUT4Fbivk6SjMcUCTPTEguB63PHMipLeRMbuQVV5HkSs32ZuTeflpBOL9uor~V2Kv5Nttp63T~xgSuYpSLLEKZW7p2cW-Gy6B-Mk3okWjKBnrl5dJs9LOfwrLtUg9zYf1LdiUrzbRBrh66Nm24Q-lqw9dfBjpuLE1zLyDUEBDzT-FMoGAdUigRqRk7uu4AbvSn1k08pUxDiy4r4DZLQgMerl8VoAwLDzcyUKmGkAxmSjrrPrz6oABMPsKoV88LDyRnOrzGErRQy3dNkNVrjZoiCq6itcajA__');
   var audio6 = new Audio('https://cms-artifacts.motionarray.com/content/motion-array/1624516/Pouring_Sparkling_Water_mp3.mp3?Expires=2003732762287&Key-Pair-Id=K2ZDLYDZI2R1DF&Signature=iqaafqYJ5rWufMvul6R~YBZsYs0m3c3XfNBa9SZ1ltIxv~wJh5LdyIlyx2G-qQFDH7iZqXvYzijLo8OeYdZ1n-r2Oe8xcQyo5e~39Ek7tJn5HjB1CTb--6QCH2PnABFTY5omhSVXK6ikUZ88Srf7gWYWb74alD6BuHwtv4Vn4gMKg21ttoCEPjKWk0II9wgw9hdIgCRB43LCKiA3WNvce8xYkiidIykc0heW~XYLUhjD70Lap~pVipxSXGGaZwOwWi4uBbC55ogUhN~Nl6Mk-P0DCuO3MKuJUF6iPUTjUnRkv3qNl0-SCgr3EUebXCfcOra9PQ6iq6crhQ3iG3Mfiw__');
   var audio7 = new Audio('https://cms-artifacts.motionarray.com/content/motion-array/606267/Owl_mp3.mp3?Expires=2003745427870&Key-Pair-Id=K2ZDLYDZI2R1DF&Signature=bHHyvZsC8WPRZNZD1RGsD1cYvIiskqiWyv6RnnzgKERJHV7tK8QXObsr3PPdjnVmnTDT3ImQMP-0FYrrM5SMPetc2jYSWeCnDowRNOnM0IymVA8Pr0Ocu~MNT1tTa5olCn--QjNoOW7oGHI-zNYBiqF543lcptCYPFbO~yk-mf28FRbpWgX7hDan0H81ato0Yl4N61QeGijiaarE~~Mzkdwq2PADYxkSa3JpyudlBf0MXFkQ0sBCeQnEICNOCt-HFlgkoqODLosvqlYAxtu2jl6OMVqeMxDPumEhhXT5WJ4jMfCHcW~y3mCsRwV2kfBaXNpl8jAS-CD1h-SgQQEhvg__');
@@ -87,13 +88,13 @@
   // document.getElementById('playButton1').addEventListener('click', function () { audio1.play(); });
   document.getElementById('playButton2').addEventListener('click', function () { audio2.play(); });
   document.getElementById('playButton3').addEventListener('click', function () { audio3.play(); });
-  document.getElementById('playButton4').addEventListener('click', function () { audio4.play(); });
-  document.getElementById('playButton5').addEventListener('click', function () { audio5.play(); });
-  document.getElementById('playButton6').addEventListener('click', function () { audio6.play(); });
+  // document.getElementById('playButton4').addEventListener('click', function () { audio4.play(); });
+  // document.getElementById('playButton5').addEventListener('click', function () { audio5.play(); });
+  // document.getElementById('playButton6').addEventListener('click', function () { audio6.play(); });
   document.getElementById('playButton7').addEventListener('click', function () { audio7.play(); });
   document.getElementById('playButton8').addEventListener('click', function () { audio8.play(); });
 
-  // audio2.volume = 1.2;
+  audio3.volume = 0.25;
 
   document.getElementById('playButton1').addEventListener('click', function () {
     var audioPlayer = document.getElementById('audioPlayer');
